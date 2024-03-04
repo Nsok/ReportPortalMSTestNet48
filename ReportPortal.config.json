@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-vstest/master/ReportPortal.VSTest.TestLogger/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "https://rp.clarizen.cloud",
+    "project": "adaptiveworkcorelegacytests",
+    "authentication": {
+      "uuid": "4a484cb7-a5a3-431e-adb9-301e6edf2e8d"
+    }
+  },
+  "launch": {
+    "name": "Automate The Planet Test Portal Demo",
+    "description": "This is a demo run of the ATP demo examples for a demonstration of Test Portal integration with MSTest tests.",
+    "debugMode": false,
+    "tags": [ "Automate The Planet", "Test Reporting", "MSTEST" ]
+  }
+}
